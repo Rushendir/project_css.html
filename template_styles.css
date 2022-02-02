@@ -1,0 +1,160 @@
+       
+        .div1{
+        padding: 15px;
+        border-style: groove;
+        border-width: 2px;
+        background-color:silver;
+        float: left;
+        }
+        h1{
+        color: black;
+        font-weight: 300;
+        font-style: normal;
+        background-color:orangered;
+        padding: 4px;
+        text-align: center;
+        } 
+        .div2 > h2{
+        font-weight: bold;
+        color: black;
+        margin-left: 10px;
+        background-color:white;
+        float: left;
+        }
+        .div2 > p{
+         color: rgb(178, 34, 53);
+         background-color:whitesmoke;
+        letter-spacing: normal;
+        text-align: right;
+        text-align: justify;
+        font-style: normal; 
+        margin-left: 8px;
+        margin-right: 8px;
+        padding: 5px;
+        }
+        .div3{
+        font-weight: bold;
+        color:black;
+        background-color:whitesmoke;
+        padding: 5px;
+        float: left;
+         }
+        .div4{
+        font-weight:lighter;
+        color:rgb(226, 42, 42);
+        background-color: whitesmoke;
+        padding: 5px;
+        }
+        .div5{
+        margin-left: 12px;
+        padding: 20px;
+        }
+        #rule{
+        color: black;
+        font-weight: 300;
+        font-style: normal;
+        background-color:lightslategray;
+        padding: 15px;
+        text-align: center;
+         } 
+       .div12,.div13,.div14,.div15{
+        float: left;
+        border-width: 2px;
+        border:groove;
+        border-color: yellow;
+        padding: 12px;
+        margin-left: 10px;
+        margin-right: 10px;
+        background-color: mediumpurple;
+        width: 21%;
+        }
+        .div12 > h3{
+         color: rgb(8, 0, 255);
+         font-style: normal;
+         padding:auto;
+         font-weight: bold;
+         text-align: center;
+        }
+        .div13 > h3{
+         color: rgb(8, 0, 255);
+         font-style: normal;
+         padding: 10px;
+         font-weight: bold;
+         text-align: center;
+        }
+        .div14 > h3{
+         color: rgb(8, 0, 255);
+         font-style: normal;
+         font-weight: bold;
+         text-align: center;
+        }
+        .div15 > h3{
+         color: rgb(8, 0, 255);
+         font-style: normal;
+         font-weight: bold;
+         text-align: center;
+        }
+        #color{
+        color:blue;
+        background-color:plum;
+        }
+        #clear{
+        color:darkred;
+        background-color:plum;
+        }
+        .div31 > h1{
+            padding: 15px;
+            color: rgb(0, 27, 205);
+            text-align: center;
+            font-weight:bold;
+            font-size: 3em;
+            background-color: slategrey;
+        }
+        .bgimg > img,.bgimg2 > img,.bgimg3 > img{
+           border-style: groove; 
+           border-width: 3px;
+           border-color: orange;
+        }
+        .bgimg,.bgimg2{
+            float: left;
+        }
+        .bgimg,.bgimg2,.bgimg3{
+            padding: 60px;
+            margin-left: auto;
+            width: 32%;
+        }
+        .clear > img,.bgimg4 > img,.bgimg5 > img{
+           border-style: dashed; 
+           border-width: 3px;
+           border-color: yellow;
+        }
+        .clear,.bgimg4{
+            float: left;
+        }
+        .clear,.bgimg4,.bgimg5{
+            padding: 60px;
+            margin-left: auto;
+            width: 32%;
+        }
+        .want > img,.bgimg6 > img,.bgimg7 > img{
+           border-style: dotted; 
+           border-width: 3px;
+           border-color: pink;
+        }
+        .want,.bgimg6{
+            float: left;
+        }
+        .want,.bgimg6,.bgimg7{
+            padding: 60px;
+            margin-left: auto;
+            width: 32%;
+        }
+        .top,.bottom,.center{
+            background-color: silver;
+        }
+        .last{
+            text-align: center;
+            padding: 10px;
+            background-color: cyan;
+            color: black;
+        }
