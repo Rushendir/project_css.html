@@ -119,9 +119,9 @@
             float: left;
         }
         .bgimg,.bgimg2,.bgimg3{
-            padding: 60px;
+            padding: 50px;
             margin-left: auto;
-            width: 32%;
+            width: 29%;
         }
         .clear > img,.bgimg4 > img,.bgimg5 > img{
            border-style: dashed; 
@@ -132,9 +132,9 @@
             float: left;
         }
         .clear,.bgimg4,.bgimg5{
-            padding: 60px;
+            padding: 50px;
             margin-left: auto;
-            width: 32%;
+            width: 29%;
         }
         .want > img,.bgimg6 > img,.bgimg7 > img{
            border-style: dotted; 
@@ -145,9 +145,9 @@
             float: left;
         }
         .want,.bgimg6,.bgimg7{
-            padding: 60px;
+            padding: 50px;
             margin-left: auto;
-            width: 32%;
+            width: 29%;
         }
         .top,.bottom,.center{
             background-color: silver;
