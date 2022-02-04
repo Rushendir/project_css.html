@@ -1,6 +1,4 @@
-       * div{
-           box-sizing: border-box;
-       }
+
        .header h1{
         color: whitesmoke;
         font-weight: 300;
@@ -169,7 +167,7 @@
             background-color: lightgrey;
         }
         .bgimg > img,.bgimg2 > img,.bgimg3 > img{
-           border-style: groove; 
+           border-style: groove;
            border-width: 2px;
            border-color: orange;
         }
