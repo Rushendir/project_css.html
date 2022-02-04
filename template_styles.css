@@ -1,4 +1,6 @@
-       
+       * div{
+           box-sizing: border-box;
+       }
        .header h1{
         color: whitesmoke;
         font-weight: 300;
@@ -53,8 +55,9 @@
         }
         .div6{
         margin-left: 12px;
+        margin-right: 300px;
         padding: 20px;
-        float: left;
+        float: right;
         }
         .div6 > button{
             color: blue;
