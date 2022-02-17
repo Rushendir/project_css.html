@@ -142,7 +142,6 @@ body{
     width: 26%;
     margin: auto;
     padding: 70px;
-   /* background-color: rgba(177, 168, 168, 0.476);*/
 }
 .div6 .but1{
     color: orangered;
@@ -155,7 +154,6 @@ body{
     margin: auto;
 }
 .top{
-    background-color: rgba(187, 177, 177, 0.476);
     padding: 12px;
 }
 .top .but2{
