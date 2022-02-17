@@ -1,0 +1,340 @@
+ header{
+    display: flex;
+    color: blue;
+    justify-content:space-evenly;
+    margin: auto;
+    width: 60%;
+    font-size: large;
+}
+header a:hover{
+    background-color:rgba(223, 56, 201, 0.694);
+    border-radius: 15px;
+}
+header a{
+    text-decoration: none;
+}
+header .anch{
+    background-color: rgb(158, 218, 39);
+}
+.div1{
+    padding:10px;
+}
+/*header is close*/
+#first,#second,#third,#fourth,#fifth,#sixth,#seventh{
+    clear: both;
+}
+/*All clear property*/
+.topic{
+    background-color: bisque;
+}
+ #word{
+    text-align: center;
+    width: 30%;
+    padding: 5px;
+    margin: auto;
+    font-weight: 600;
+    font-size: 3em;
+    color: black;
+    word-spacing: 3px;
+}
+.topic #word::first-letter{
+    color: rgb(149, 209, 28);
+    font-size: 55px;
+    font-weight: 600;
+} 
+.topic h1:hover{
+    background-color:rgba(223, 56, 201, 0.544);
+    border-radius: 25px;
+}
+/*topic is over*/
+.img{
+    background-color: whitesmoke;
+    text-align: center;
+    margin: auto;
+    padding: 25px;
+}
+.radio{
+    text-align: center;
+    padding: 8px;
+    margin: auto;
+    color: gray;
+}
+/* img property is over*/
+ .lorem1 > h1{
+    background-color: rgb(175, 224, 77);
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+    color: whitesmoke;
+}
+.lorem1 img{
+    text-align: center;
+    margin: auto;
+}
+.lorem1 .enter{
+    padding: 15px;
+    background-color: rgb(220, 139, 33);
+    color: aliceblue;
+}
+.lorem1 .sec{
+    background-color:yellowgreen;
+    padding: 15px;
+    margin: auto;
+    font-size: 30px;
+    color: white;
+    text-align: right;
+}
+.lorem2 > h1{
+    background-color: rgb(175, 224, 77);
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+    color: whitesmoke;
+}
+.lorem2 img{
+    align-content: center;
+    margin: auto;
+}
+.lorem2 .enter{
+    padding: 15px;
+    background-color: rgb(220, 139, 33);
+    color: aliceblue;
+}
+.lorem2 .sec{
+    background-color:yellowgreen;
+    padding: 15px;
+    margin: auto;
+    font-size: 30px;
+    color: white;
+    text-align: right;
+}
+.lorem3 > h1{
+    background-color: rgb(175, 224, 77);
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+    color: whitesmoke;
+}
+.lorem3 img{
+    text-align: center;
+    background-color: rgb(231, 99, 22);
+    margin: auto;
+}
+.lorem3 .enter{
+    padding: 15px;
+    background-color: rgb(220, 139, 33);
+    color: aliceblue;
+}
+.lorem3 .sec{
+    background-color:yellowgreen;
+    padding: 15px;
+    margin: auto;
+    font-size: 30px;
+    color: white;
+    text-align: right;
+}
+.lorem1,.lorem2,.lorem3{
+    width: 30%;
+    float: left;
+    padding: 15px;
+    margin: auto;
+    background-color: rgba(198, 236, 235, 0.707);
+}
+.lorem{
+    margin: auto;
+    padding-left: 25px;
+}
+/*lorem is over */
+.style1  h2,.style2 h2,.style3 h2{
+     font-weight: 600;
+     padding: 5px;
+     color: black;
+     background-color: beige;
+     text-align: center;
+}
+.style2 h5,.style3 h5{
+    color: rgb(42, 42, 218);
+    background-color: beige;
+    text-align: center;
+    padding: 5px;
+}
+.style1 p{
+    color: blue;
+    background-color: beige;
+    line-height: 30px;
+    padding: 5px;
+}
+.style2 p,.style3 p{
+    text-align: center;
+    color: rgba(241, 67, 14, 0.959);
+    line-height: 30px;
+    background-color: beige;
+}
+.style2 > .button,.style3 > .button{
+    color: orangered;
+    background-color: lightblue;
+    border-radius: 6px;
+}
+.style1,.style2,.style3{
+    float: left;
+    width: 31%;
+    padding: 10px;
+    margin: auto;
+}
+/*style is over*/
+.read,.read1,.read2,.read3{
+    float: left;
+}
+.read,.read2{
+   background-color:greenyellow ;
+   color: azure;
+   padding: 40px;
+   margin: auto;
+   width: 20%;
+}
+.read1,.read3{
+    color: greenyellow;
+    background-color: black;
+    margin: auto;
+    text-align: justify;
+    width: 80%;
+}
+.overall h2::first-line{
+    color: rgb(224, 100, 16);
+    padding: 5px;
+}
+.mixed,.mixed1{
+    float: left;
+    width: 47%;
+    margin: auto;
+    background-color: bisque;
+    padding: 8px;
+    justify-content: space-between;
+}
+.overall{
+    margin: auto;
+    background-color: gray;
+}
+/*overall, mixed, read close*/
+.footer{
+    text-align: center;
+    color: rgb(0,0,0);
+    background-color: rgba(212, 154, 220, 0.9);
+    padding: 10px;
+    margin: auto;
+}
+/* start media query concept for mobile screen*/
+ @media only screen and (max-width: 575px) and (min-width: 100px){
+    header{
+            background-color:lightgray;
+            width: 100%;
+            flex-wrap: wrap;
+            margin: auto;
+            justify-content: space-evenly;
+    }
+ }
+ @media only screen and (max-width: 576px) and (min-width: 100px){
+    .topic,.radio{
+            width: 100%;
+            margin: auto;
+    }
+ }
+ @media only screen and (max-width: 576px) and (min-width: 100px){
+    .lorem1,.lorem2,.lorem3{
+            background-color:lightgray;
+            width: 100%;
+            margin: auto;
+            padding: 0;
+    }
+ }
+ @media only screen and (max-width: 576px) and (min-width: 100px){
+    .style1{
+            background-color:lightgray;
+            width: 100%;
+            margin: auto;
+            padding: 0;
+    }
+ }
+ @media only screen and (max-width: 576px) and (min-width: 100px){
+    .lorem1  img,.lorem2  img,.lorem3  img{
+            background-color:lightgray;
+            width: 75%;
+            height: 70%;
+            overflow: hidden;
+            flex-wrap: wrap;
+            margin: auto;
+            padding: 0;
+    }
+ }
+ @media only screen and (max-width: 576px) and (min-width: 100px){
+    .style2,.style3{
+            background-color:lightgray;
+            width: 50%;
+            margin: auto;
+            overflow: auto;
+            padding: 0;
+    }
+ }
+ @media only screen and (max-width: 576px) and (min-width: 100px){
+    .mixed,.mixed1{
+            background-color:gray;
+            width: 50%;
+            margin: auto;
+            flex-wrap: wrap;
+            padding: 0;
+    }
+}
+/*start media query concept for laptop and desktop*/
+@media only screen and  (min-width: 576px){
+    .style1.style2,.style3{
+            width: 30%;
+            margin: auto;
+            overflow: hidden;
+            flex-wrap: wrap;
+            padding: 0;
+    }
+ }
+ @media only screen and  (min-width: 576px){
+    .lorem1,.lorem2,.lorem3{
+            background-color:lightgray;
+            width: 33%;
+            margin: auto;
+            overflow: hidden;
+            padding: 0;
+    }
+}
+@media only screen and (min-width: 576px){
+    .mixed,.mixed1{
+            background-color:gray;
+            width: 50%;
+            margin: auto;
+            flex-wrap: wrap;
+            padding: 0;
+    }
+}
+@media only screen and (min-width: 576px){
+    header{
+            width: 70%;
+            flex-wrap: wrap;
+            margin: auto;
+            justify-content: space-evenly;
+    }
+ }
+ @media only screen and (min-width: 576px){
+    .lorem1  img,.lorem2  img,.lorem3  img{
+            background-color:lightgray;
+            width: 75%;
+            height: 70%;
+            overflow: hidden;
+            flex-wrap: wrap;
+            margin: auto;
+            padding: 0;
+    }
+}
+ @media only screen and (min-width: 576px){
+    .topic,.radio{
+            width: 100%;
+            margin: auto;
+    }
+ }
+/*media querry laptop and desktop aplly is over*/
