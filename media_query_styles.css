@@ -5,11 +5,12 @@
     font-variant: small-caps;
 }
 body{
-    background-color: rgba(29, 29, 5, 0.544);
+    background-color: rgba(83, 83, 62, 0.285);
 }
 .main{
-    background-color: rgba(235, 192, 192, 0.449);
-    margin: 25px;
+    background-color: rgba(235, 192, 192, 0.694);
+    margin: 25px auto;
+    width: 85%;
 }
 header{
     display: flex;
