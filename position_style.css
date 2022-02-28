@@ -347,7 +347,7 @@ img{
    background-color: rgb(32, 30, 30,0.85);
    color: white;
 }
-.left-main-container{
+/*.left-main-container{
     float: left;
     width: 25%;
     position: fixed;
@@ -357,4 +357,4 @@ img{
     float: left;
     width: 75%;
     margin-left: 25%;
-}
+}*/
