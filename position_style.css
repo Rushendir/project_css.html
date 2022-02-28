@@ -1,0 +1,360 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    -webkit-tap-highlight-color:transparent;
+}
+.left-main-container{
+    background-color: darkgray;
+}
+img{
+    max-width: 100%;
+}
+.div1{
+    display: grid;
+    grid-template-columns: 30% 50%;
+}
+.sec h1{
+    color: green;
+    font-weight: 900;
+    padding: 4px;
+}
+.sec h4{
+    color: green;
+    font-weight: 600;
+    padding: 4px;
+}
+.sec{
+    padding: 5px;
+    background-color: white;
+    overflow: auto;
+}
+.div1{
+    padding:15px 0;
+}
+.div img{
+    opacity: 1.5;
+}
+.home{
+    background-color: gray;
+    padding: 10px;
+    color: skyblue;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.about,.service,.portfolio,.contact{
+    background-color: gray;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    margin-bottom: 3px;
+}
+.div2{
+    margin-top: 25px;
+}
+.home{
+    border-left: 8px solid;
+    border-color: skyblue;
+}
+.about{
+    border-left: 8px solid;
+    border-color: orange;
+}
+.service{
+    border-left:8px solid;
+    border-color:purple;
+}
+.portfolio{
+    border-left: 8px solid;
+    border-color: rgb(11, 193, 129);
+}
+.contact{
+    border-left: 8px solid;
+    border-color: rgb(245, 18, 112);
+}
+/*left side part is over*/
+.div3 h1{
+    font-size: 2.5em;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.div3 h4{
+    font-size: 1.5em;
+    padding: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+.div3 .but{
+    margin-top: 25px;
+    padding: 8px;
+    color: white;
+    text-align: center;
+    background-color: rgb(50, 173, 221);
+    margin-left: 45%;
+}
+.div3 .section{
+    margin-left: 46%;
+    margin-top: 20px;
+
+}
+.div3{
+    position:absolute;
+    margin-top: 150px;
+    margin-left: 10%;
+}
+.div4{
+    margin-left: 10%;
+}
+.right-main-container{
+    background-color: #c0c0c05c;
+}
+.div5 h1{
+    color: rgb(22, 120, 159);
+    text-align: center;
+    padding: 10px;
+}
+.div5 span{
+    color: rgb(18, 113, 150);
+}
+.div5 .para1{
+    text-align: center;
+    padding:10px ;
+}
+.div5 .butt{
+    background-color: orange;
+    padding: 20px;
+    color: white;
+    border-top: 4px solid;
+    border-color: orange;
+}
+.div5 .para2{
+    border-top: 5px solid;
+    border-color: orange;
+    margin-left: 17px;
+    margin-top: 10px;
+    width: 85%;
+}
+.div6{
+  grid-template-columns: 33% 33% auto;
+  display: grid;
+  padding: 20px;
+}
+.art1 > h1,.art2 > h1,.art3 > h1 {
+    color: orange;
+    text-align: center;
+    padding: 8px 0;
+}
+.art1 > h3,.art2 > h3,.art3 > h3{
+    text-align: center;
+    font-weight:lighter;
+    padding: 5px;
+}
+.para3 > h1{
+    color: orange;
+    text-align: left;
+    padding: 5px;
+}
+.para3 > p{
+    text-align: left;
+    padding: 5px;
+    font-weight: lighter;
+}
+.div7{
+    display: grid;
+    grid-template-columns: 70% auto;
+}
+.div7 > p{
+    color: rgba(199, 198, 186, 0.728);
+    padding: 10px;
+}
+.div7 .para3{
+    padding: 15px;
+}
+.div8 .para5{
+    border-top: 5px solid;
+    border-color: purple;
+    margin-left: 17px;
+    margin-top: 15px;
+    width: 85%;
+}
+.div8 .butt1{
+    background-color:  purple;
+    padding: 20px;
+    color: white;
+    border-top: 4px solid;
+    border-color: purple;
+}
+.sub1,.sub2,.sub3{
+    color: white;
+    background-color: purple;
+    padding: 15px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.div9{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 32% 32% auto;
+}
+.div10 > h1{
+    color: purple;
+    text-align: left;
+    padding: 15px;
+}
+.div10 > p{
+    text-align: left;
+    color: rgba(128, 128, 128, 0.979);
+    padding: 15px;
+    font-weight: lighter;
+}
+.subdiv1{
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-right: 15%;
+}
+.subdiv2{
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+    margin-right: 25%;
+}
+.subdiv3{
+    background-color: purple;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-right: 35%;
+    margin-top: 20px;
+}
+.subdiv4{
+    background-color: purple;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    margin-right: 15%;
+}
+.div11{
+    padding: 15px;
+}
+.integer{
+    display: grid;
+    grid-template-columns: 60% auto;
+}
+.div12 .para6{
+    border-top: 5px solid;
+    border-color: rgb(17, 233, 68);
+    margin-left: 17px;
+    margin-top: 15px;
+    width: 85%;
+}
+.div12 .butt2{
+    background-color:rgb(17, 223, 68);
+    padding: 20px;
+    color: white;
+    border-top: 4px solid;
+    border-color:rgb(17, 223, 68);
+}
+.div13{
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+.div14{
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    margin-top: 20px; 
+    margin-left: 10%;
+}
+.div13 p,.div14  p{
+    color: rgb(17, 223, 68);
+    text-align: center;
+    font-weight: 700;
+    font-size: large;
+    padding: 10px;
+}
+.div15 .butt3{
+    background-color: rgb(17, 223, 68);
+    color: white;
+    text-align: center;
+    padding: 10px; 
+}
+.div15 .para7{
+    margin-left: 17px;
+    margin-top: 15px;
+    text-align: center;
+}
+.para8{
+    border-top: 5px solid;
+    border-color: rgba(209, 29, 110, 0.714);
+    margin-left: 17px;
+    margin-top: 15px;
+    width: 85%;
+}
+ .butt4{
+    background-color: rgba(209, 29, 110, 0.714);
+    padding: 20px;
+    color: rgb(240, 241, 247);
+    border-top: 4px solid;
+    border-color: rgba(209, 29, 110, 0.714);
+}
+.div17{
+    margin-top: 25px;
+    margin-left: 25%;
+    margin-right: 15%;
+}
+.subpart2 > h2,.subpart2 > h3,.subpart2 > p{
+    padding: 8px;
+    background-color: white;
+    opacity: 1.5;
+    font-weight: 600;
+    text-align: center;
+}
+.form,.form1{
+    padding: 15px;
+    font-size: larger;
+    font-weight: 500;
+    text-align: center;
+}
+.form2 .butt5{
+    background-color: deeppink;
+    color: white;
+    text-align: center;
+    margin-left: 20px;
+    padding: 15px;
+    font-size: 25px;
+}
+.icons{
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    border-left: 5px solid;
+    border-color: rgb(32, 30, 30);
+    background-color: rgb(32, 30, 30,65%);
+}
+.footer{
+   text-align: left;
+   padding: 25px;
+   border-left: 5px solid;
+   border-color: rgb(32, 30, 30);
+   background-color: rgb(32, 30, 30,0.85);
+   color: white;
+}
+.left-main-container{
+    float: left;
+    width: 25%;
+    position: fixed;
+    height: 200vh;
+}
+.right-main-container{
+    float: left;
+    width: 75%;
+    margin-left: 25%;
+}
